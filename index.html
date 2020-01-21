@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Mang Burger</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		$(window).on('scroll',function(){
+			if($(window).scrollTop()){
+				$('.navbar').addClass('black');
+			}
+			else {
+				$('.navbar').removeClass('black');
+			}
+		})
+	</script>
+</head>
+<body>
+
+<div class="main_container" id="home">
+	
+	<div class="navbar">
+		<div class="logo">
+			<a href="#home" style="font-weight: 600;">Mang Burger</a>
+		</div>
+		<div class="navbar_items">
+			<ul>
+				<li><a href="#home">home</a></li>
+				<li><a href="#about">about</a></li>
+				<li><a href="#services">burgers</a></li>
+				<li><a href="#ourteam">our team</a></li>
+				<li><a href="#contactus">contact</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="banner_image">
+		<div class="banner_content">
+			<h1>Mas sulit pa sa ANGEL'S BURGER<br> <span>Burger mo, Burger ko, Burger nating lahat!!<span></h1 C>
+			<p>Food for the GOD's that GOD's only knows.</p>
+		</div>	
+	</div>
+
+	<div class="about" id="about">
+		<h1 class="title">About Us</h1>
+		<p>For the man world-famous for his fried chicken, Jesus Josef El Reisolamente N. Dela Cruz or Bosxz Zef, began his life far from the kitchen. Born in Sabsaban a place unknown to Israel, Bosxz Zef spent 90 years of his life doing everything but cook.
+
+			But come 1950, Zef's went on to take the biggest leap of his professional career — when he finalized the original recipe of 110 secret herbs and spices, to create the Perfect Burger that we’ve come to know and love today.
+			
+			A decade later, Zef's’ success in the food business flocked all over Israel with over 6000 franchise outlets. And 7 years after, KFC found a home in the Philippines.
+			
+			Perhaps the first world-famous chef, Bosxz Zef proved that fame could go hand-in-hand with a big muscle. The Bosxz donated millions to casino, motels and mental hospitals. , He says, “I have a desire to be the richest man in the cemetery.”
+			
+			Today, as the Bosxz’s legacy continues to grow, we are constantly reminded of his journey— a man who found his passion at his 90s, to becoming a world renowned chef who humbly introduced his recipe in all corners of the globe.</p>
+		<div class="btn"><a href="#">Learn More</a></div>
+	</div>
+
+	<div class="services" id="services">
+		<h1 class="title">Our Burgers</h1>
+		<p>Made with 50% real Meat you don't want to know the other half.</p>
+		<div class="diff_services">
+			<div class="diff_services_item">
+				<img src="image/burger1.png" alt="burger_image_1">
+				<h3 class="sub_title">Jeffy Patty</h3>
+				<p>One Bite and you don't know what happened</p>
+			</div>
+			<div class="diff_services_item">
+				<img src="image/burger2.png" alt="burger_image_2">
+				<h3 class="sub_title">Top and Bottom Patty</h3>
+				<p>Will make you come... back</p>
+			</div>
+			<div class="diff_services_item">
+				<img src="image/burger3.png" alt="burger_image_3">
+				<h3 class="sub_title">Hell Awaits</h3>
+				<p>Ultra Mega Super Spicy Hot Burger</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="ourteam" id="ourteam">
+		<h1 class="title">our team</h1>
+		<div class="ourteam_wrapper">
+			<div class="team-1 team">
+				<div class="members" data-name="nathan john"><img src="image/jeff.jpg" >Jefferson Sayin</div>
+				<div class="members" data-name="Alyssa Healy"><img src="image/erika.jpg" >Erika Karasuyama</div>
+				<div class="members" data-name="Alec Stewart"><img src="image/zef.jpg" >Zef Dela Cruz</div>
+			</div>
+			<div class="team-2 team">
+				<div class="members" data-name="Michael Rippon"><img src="image/kent.jpg" >Kent Lagota</div>
+				<div class="members" data-name="Meg Lanning"><img src="image/avatar2.png" >Jousa Belles</div>
+				<div class="members" data-name="Sophie Devine"><img src="image/avatar1.png" >Christian Eskoto</div>
+			</div>
+		</div>
+	</div>	
+
+	<div class="contactus" id="contactus">
+		<h1 class="title">contact us</h1>
+		<div class="form_wrapper">
+			<p>Email: mangBurger@mangburger.com</p>
+			<p>Phone No.: +639999999999</p>
+		</div>
+	</div>
+	<!-- <a href="#" class="copyright">© 2019 Coding Market</a> -->
+	<div class="footer">
+		<!--  -->
+		<a href="https:www.facebook.com" class="fa fa-facebook" target="_blank"></a>
+		<a href="https:www.twitter.com" class="fa fa-twitter" target="_blank"></a>
+		<a href="https:www.google.com" class="fa fa-google" target="_blank"></a>
+		<a href="https:www.instagram.com" class="fa fa-instagram" target="_blank"></a>
+		<a href="https:www.pinterest.com" class="fa fa-pinterest" target="_blank"></a>
+		<a href="https:/www.tumblr.com" class="fa fa-tumblr" target="_blank"></a>
+	</div>
+	
+
+
+	<div class="arrow">
+		<a href="#home"><img src="images/arrow.png" alt="up_arrow"></a>
+	</div>
+</div>	
+	
+</body>
+</html>
